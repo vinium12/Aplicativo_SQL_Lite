@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/colorBackground"> <TextView
+    android:id="@+id/txtTituloMain" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="T-Fence - Cadastro" android:textSize="30sp"
+    android:textStyle="bold"
+    android:textColor="@color/green_dark"
+    android:layout_marginBottom="40dp"
+    android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtNome"
+        android:textSize="20sp"
+        android:textColor="@color/black"/> <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:hint="@string/hint_nome"
+        android:inputType="textPersonName"
+        android:autofillHints="name"
+        android:textColor="@color/black" android:textColorHint="@color/black" android:backgroundTint="@color/green_primary"/> <TextView
+        android:id="@+id/txtEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtEndereco"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:hint="@string/hint_endereco"
+        android:inputType="textPostalAddress"
+        android:autofillHints="postalAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/green_primary"/>
+
+    <TextView
+        android:id="@+id/txtBairro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtBairro"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edtBairro"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:hint="@string/hint_bairro"
+        android:inputType="textPostalAddress"
+        android:autofillHints="addressLocality"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/green_primary"/>
+
+    <TextView
+        android:id="@+id/txtCep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txtCep"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/edtCep"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:hint="@string/hint_cep"
+        android:inputType="numberDecimal"
+        android:autofillHints="postalCode"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:backgroundTint="@color/green_primary"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/btnCadastrar"
+        android:textSize="25sp"
+        android:backgroundTint="@color/green_primary" android:textColor="@color/white"/> </LinearLayout>

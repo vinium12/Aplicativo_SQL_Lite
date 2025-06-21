@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AppSQL-Lite</string>
+    <string name="app_name">T-Fence</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtEndereco">Endereço:</string>
+    <string name="txtBairro">Bairro:</string>
+    <string name="txtCep">CEP:</string> <string name="btnCadastrar">Cadastrar</string>
+    <string name="txtResposta">Confirmação dos Dados</string>
+    <string name="btnConfirmar">Confirmar</string>
+
+    <string name="hint_nome">Digite o nome completo</string>
+    <string name="hint_endereco">Digite o endereço</string>
+    <string name="hint_bairro">Digite o bairro</string>
+    <string name="hint_cep">Digite o CEP (ex: 00000-000)</string>
+
 </resources>
